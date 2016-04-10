@@ -13,7 +13,7 @@
     });
   };
 
-  $.widget("bla.form", {
+  $.widget("createForm.form", {
     _create: function _create() {
       var $el = this.element;
       var opt = this.options;

@@ -3,7 +3,7 @@
   const render = fields => concatename(fields.map(field => funciones[field.type](field)));
   const concatename = mapo => mapo.reduce((a, b) => a + b);
 
-  $.widget("bla.form", {
+  $.widget("createForm.form", {
     _create: function () {
       const $el = this.element;
       const opt = this.options;
