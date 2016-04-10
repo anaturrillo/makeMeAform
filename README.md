@@ -2,6 +2,7 @@
 This is my jQuery plugin to easily create forms :)
 
 ## Usage
+```javascript
 $("body").form({
      fields: [{
         id: "Nombre",
@@ -14,3 +15,4 @@ $("body").form({
         label: "Esta a favor?"
      }]
 });
+```
