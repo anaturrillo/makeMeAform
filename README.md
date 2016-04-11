@@ -33,11 +33,19 @@ $("body").form({
 *label: label element
 *labelClass: label class
 *wrapper: the html element to be use as
-*wrapperClass: "col s6",
-*wrapperParent: "div",
-*wrapperParentClass: "row",
-*class: "validate",
-*placeholder: "Ej.: Pepe Pepez",
+*wrapperClass: the class for the previously mentioned element,
+*class: class of current element,
+*placeholder: placeholder for the element,
+*iconPrefix: you may add Material Icons as prefix for your fields, you just need to specify the icon name. You'll need to set up Material Icons in order for this feature to work (http://google.github.io/material-design-icons/).
+
+### Options
+You can add fields to offer the user several options to choose from:
+They all have the property **'options'**, it expects an object with the option as key and the value as value.
+*optionsDropdown
+*optionsCheckboxes
+    *style -> radio
+    *style -> checkbox
+*optionsButtons
 
 ## Requirements
 JqueryUI v. 1.11+
